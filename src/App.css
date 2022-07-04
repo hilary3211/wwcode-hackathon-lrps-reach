@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.topnav{
+  margin-bottom: 80px;
+  font-size: 30px;
+  /* background-color: teal; */
+  background-color: transparent;
+  /* color: aliceblue; */
+  color: white;
+}
+
+button {
+  background-color: #282c34;
+  color: antiquewhite;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 1s;
+}
+
+button:hover{
+  background-color: antiquewhite;
+  color: #282c34;
+}
+
+
+textarea{
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+hr{
+  width: 70%;
+}
+
+input{
+  border-radius: 5px;
+  height: 30px;
+  padding: 3px 0px;
+  text-align: center;
+  font-size: 19px;
+}
+
+small{
+  color: red;
+  font-size: 15px;
+}
+
+.animate{
+  /* animation: text 2s infinite; */
+  color: #020887;
+  text-transform: capitalize;
+}
+
+.error{
+  border: 1px solid red;
+}
+
+.timeout-img{
+  width: 100px;
+}
+
+.timeout{
+  font-size: 60px;
+  animation: text 2s infinite;
+}
+
+.guess{
+  position: fixed;
+  left: 40%;
+  font-size: 22px;
+  font-weight: 600;
+}
+@keyframes text {
+  0%{
+      color: #a9dbb8;
+      /* transform: translateX(1px) */
+  }
+  33%{
+      color: #7ca5b8;
+  }
+  66%{
+      color: #38369a;
+  }
+  100%{
+      color: #020887;
+  }
+}
