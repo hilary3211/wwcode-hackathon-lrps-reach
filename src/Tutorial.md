@@ -21,8 +21,8 @@ We will be using Reach to write the smart contract of the dapp and javascript to
 
 ```js
 1 'reach 0.1'
-2 const [isHand, ROCK, PAPER, SCISSORS] = makeEnum(3)
-3 const [isOutcome, B_WINS, DRAW, A_WINS] = makeEnum(3) 
+2 const [isOutcome, B_WINS, DRAW, A_WINS] = makeEnum(3) 
+3  
 4 const winner = (handA, handB) => ((handA + (4 - handB)) % 3)
 5
 6 assert(winner(ROCK, PAPER) == B_WINS)
